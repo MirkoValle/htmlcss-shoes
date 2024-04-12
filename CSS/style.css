@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    margin: auto;
+    max-width: 1920px;
+}
+
+
+section.disp {
+    height: 100vh;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
