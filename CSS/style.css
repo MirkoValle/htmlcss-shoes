@@ -10,7 +10,7 @@ body {
     max-width: 1920px;
 }
 
-header {
+nav {
     position: fixed;
     padding: 2rem;
     display: flex;
@@ -20,7 +20,11 @@ header {
 
 }
 
-nav {
+
+
+a {
+    text-decoration: none;
+    color: black;
     background-color: white;
     padding: 1rem;
     border-radius: 50%;
@@ -32,6 +36,7 @@ nav {
     font-size: 2rem;
     line-height: 2rem;
     cursor: pointer;
+    box-shadow: .5px .5px 5px black;
 }
 
 section.disp {
