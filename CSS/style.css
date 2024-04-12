@@ -10,6 +10,29 @@ body {
     max-width: 1920px;
 }
 
+header {
+    position: fixed;
+    padding: 2rem;
+    display: flex;
+    justify-content: end;
+    right: 0;
+    z-index: 1;
+
+}
+
+nav {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    cursor: pointer;
+}
 
 section.disp {
     height: 100vh;
