@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-
-body {
+html {
     margin: auto;
     max-width: 1920px;
+    font-family: "Rubik Mono One", monospace;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -20,8 +21,6 @@ nav {
 
 }
 
-
-
 a {
     text-decoration: none;
     color: black;
@@ -33,7 +32,7 @@ a {
     height: 4rem;
     width: 4rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     cursor: pointer;
     box-shadow: .5px .5px 5px black;
